@@ -1,0 +1,52 @@
+<templateSet group="Flask-Jinja2">
+  <template name="fexp" value="{{ foo.bar }}&#10;" description="Add Flask template expression" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ffilter" value="{{ foo.bar|filter }}" description="Add Flask template filter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fcomment" value="{# &#10;  comment &#10;#}" description="Add Flask template comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fblock" value="{% block foo %}{% endblock %}&#10;" description="Add Flask template block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fextends" value="{% extends layout_template %}&#10;" description="Add Flask extends tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fself" value="{{ self.block_name() }}" description="Add Flask self" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fsuper" value="{{ self.supper() }}" description="Add Flask super command" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ffor" value="{% for element in collection %}&#10;    {{ element }}&#10;{% endfor %}" description="Add Flask template for tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fif" value="{% if expression %}&#10;    blockofcode&#10;{% endif %}" description="Add Flask 'if' template tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="furl" value="{{ url_for(&quot;template&quot;) }}" description="Add Flask url_for template tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
