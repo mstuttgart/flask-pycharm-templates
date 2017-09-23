@@ -1,0 +1,72 @@
+<templateSet group="Flask">
+  <template name="fapp" value="from flask import Flask, render_template&#10;app = Flask(__name__)&#10;&#10;&#10;@app.route('/')&#10;def index():&#10;    return render_template('index.html')&#10;&#10;if __name__ == '__main__':&#10;  app.run(host:'127.0.0.1', port=8000, debug=True)&#10;&#10; " description="Add basic Flask app code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="froute" value="@app.route('path')&#10;def func_name(foo):&#10;    return render_template('expression')&#10;" description="Add Flask basic route" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="furl" value="url_for('foo')" description="Add url generator" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="fmeth" value="methods=['GET', 'POST']" description="Add url methods" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="frt" value="render_template('page.html', foo=bar)" description="Add render template command" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ftreq" value="with app.test_request_context('path', method='POST'):&#10;        assert request.path == 'path'&#10;        assert.method == 'POST'&#10;" description="Add Flask test request" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="fup" value="@app.route('/upload', methods=['GET', 'POST'])&#10;def upload_file():&#10;    if request.method == 'POST':&#10;        f = request.files['the_file']&#10;        f.save('/path/to/save/the_file.txt')&#10;" description="Flask upload" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="fsup" value="from werkzeug.utils import secure_filename&#10;&#10;@app.route('/upload', methods=['GET', 'POST'])&#10;def upload_file():&#10;    if request.method == 'POST':&#10;        f = request.files['the_file']&#10;        f.save('/path/to/save/' + secure_filename(f.filename))" description="Flask secure upload" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="frc" value="foo = request.cookies.get$('key')&#10;" description="Read cookie" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="fsc" value="foo = make_response(expression)&#10;foo.set_cookie('key', 'value')&#10;return foo&#10;" description="Set cookie" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="feh" value="@app.errorhandler(404)&#10;def bar(error):&#10;        return render_template('error.html'), 404" description="Flask error handler" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="flog" value="app.logger.debug(&quot;A message&quot;)&#10;" description="Flask login" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="&quot;&quot;&quot;" value="&quot;&quot;&quot;sumary_line&#10;&#10;Keyword arguments:&#10;argument -- description&#10;Return: return_description&#10;&quot;&quot;&quot;" description="Multiline docstring" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="&quot;&quot;" value="&quot;&quot;&quot;sumary_line&quot;&quot;&quot;&#10;" description="Single line docstring" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
