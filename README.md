@@ -1,6 +1,6 @@
 # Pycharm Flask Snippets
 
-Collection of Pycharm IDE snippets to help you develop Flask applications.
+Collection of Jetbrains Pycharm IDE snippets to help you develop Flask web applications.
 
 ## Features
 
@@ -48,15 +48,15 @@ All `Pycharm Flask` snippets start with the f letter.
 | fautoescape  | Flask Jinja2 autoescape tag    |
 | furl         | Flask Jinja2 url_for tag       |
 
-## To Install
+## Installation
 
-In a linux distribution, you can copy the *templates* folder content in PyCharm folder.
+1. Download `settings.jar` file: [click here](https://github.com/mstuttgart/pycharm-flask-snippets/raw/master/settings.jar)
 
-```
-~/.PyCharm*/config/templates
-```
+1. Go to `File | Import Settings...` in PyCharm IDE and select the downloaded `settings.jar` file. Click `OK` in the dialog that appears.
 
-Open or restart you PyCharm IDE and enjoy!
+2. Restart `PyCharmIDE`: Go to `File | Invalidate Chaches / Restart...` menu, and click in `Just Restart` button. The PyCharm IDE will be restart.
+
+3. Enjoy with Flask snippets!
 
 ## Contributing
 
@@ -71,6 +71,6 @@ If you'd like to contribute, please create a fork and open issue or pull request
 
 ## Credits
 
-This project (Flask Api snippets and Jinja2 snippets) is fully based on snippets created by [jleonra](https://github.com/jleonra/flask-snippets).
+This project (Flask API snippets and Jinja2 snippets) is fully based on snippets created by [jleonra](https://github.com/jleonra/flask-snippets).
 
 Copyright (c) 2017 Michell Stuttgart
