@@ -69,6 +69,8 @@ If you'd like to contribute, please create a fork and open issue or pull request
 - [ ] Form snippets
 - [ ] flash snippets
 
+To create new snippets, download and install the `settings.jar` file. Go to `File | Settings | Editor | Live Templates`, select `Flask` and add your new snippets.
+
 ## Credits
 
 This project (Flask API snippets and Jinja2 snippets) is fully based on snippets created by [jleonra](https://github.com/jleonra/flask-snippets).
