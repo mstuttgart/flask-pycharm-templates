@@ -8,22 +8,25 @@ All `Pycharm Flask` snippets start with the f letter.
 
 ### Python snippets
 
-| Abbreviation | Description     |
-|--------------|-----------------|
-| """          | ML docstring    |
-| ""           | SL docstring    |
-| fapp         | Flask App       |
-| froute       | Flask route     |
-| furl         | URL generator   |
-| fmeth        | URL methods     |
-| frt          | Render template |
-| ftreq        | Test request    |
-| fup          | Flask upload    |
-| fsup         | Secure upload   |
-| frc          | Read cookie     |
-| fsc          | Set cookie      |
-| feh          | Error handler   |
-| flog         | Flask logging   |
+| Abbreviation | Description                    |
+|--------------|--------------------------------|
+| """          | ML docstring                   |
+| ""           | SL docstring                   |
+| fapp         | Flask App                      |
+| froute       | Flask route                    |
+| furl         | URL generator                  |
+| fmeth        | URL methods                    |
+| frt          | Render template                |
+| ftreq        | Test request                   |
+| fup          | Flask upload                   |
+| fsup         | Secure upload                  |
+| frc          | Read cookie                    |
+| fsc          | Set cookie                     |
+| feh          | Error handler                  |
+| flog         | Flask logging                  |
+| fflash       | Flash message                  |
+| fflashcateg  | Flash message with category    |
+| fflashfilter | Flash message with filter      |
 
 ### Flask Jinja2 template snippets
 
@@ -64,10 +67,11 @@ If you'd like to contribute, please create a fork and open issue or pull request
 
 > TODO list:
 - [x] Flask python api snippets
-- [x] Jinja2 snippets.
+- [x] Jinja2 snippets
+- [x] flash snippets
 - [ ] wtforms snippets
 - [ ] Form snippets
-- [ ] flash snippets
+
 
 ## Credits
 
