@@ -49,4 +49,19 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="fflash" value="{% with messages = get_flashed_messages() %}&#10;  {% if messages %}&#10;    &lt;ul class=flashes&gt;&#10;    {% for message in messages %}&#10;      &lt;li&gt;{{ message }}&lt;/li&gt;&#10;    {% endfor %}&#10;    &lt;/ul&gt;&#10;  {% endif %}&#10;{% endwith %}" description="Add flash message" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fflashcateg" value="{% with messages = get_flashed_messages(with_categories=true) %}&#10;  {% if messages %}&#10;    &lt;ul class=flashes&gt;&#10;    {% for category, message in messages %}&#10;      &lt;li class=&quot;{{ category }}&quot;&gt;{{ message }}&lt;/li&gt;&#10;    {% endfor %}&#10;    &lt;/ul&gt;&#10;  {% endif %}&#10;{% endwith %}" description="Add flash message with category" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fflashfilter" value="{% with errors = get_flashed_messages(category_filter=[&quot;error&quot;]) %}&#10;{% if errors %}&#10;&lt;div class=&quot;alert-message block-message error&quot;&gt;&#10;  &lt;a class=&quot;close&quot; href=&quot;#&quot;&gt;×&lt;/a&gt;&#10;  &lt;ul&gt;&#10;    {%- for msg in errors %}&#10;    &lt;li&gt;{{ msg }}&lt;/li&gt;&#10;    {% endfor -%}&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;&#10;{% endif %}&#10;{% endwith %}" description="Add flash message with category" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
