@@ -1,10 +1,10 @@
-# Pycharm Flask Snippets
+# Flask Pycharm Templates
 
-Collection of Jetbrains Pycharm IDE snippets to help you develop Flask web applications.
+Collection of Jetbrains Pycharm IDE templates to help you develop Flask web applications.
 
 ## Features
 
-All `Pycharm Flask` snippets start with the f letter.
+All `Pycharm Flask` code snippets start with the `f` letter.
 
 ### Python snippets
 
@@ -53,17 +53,17 @@ All `Pycharm Flask` snippets start with the f letter.
 
 ## Installation
 
-1. Download `settings.jar` file: [click here](https://github.com/mstuttgart/pycharm-flask-snippets/raw/master/settings.jar)
+1. Download `settings.jar` file: [click here](https://github.com/mstuttgart/flask-pycharm-templates/raw/master/settings.jar)
 
 1. Go to `File | Import Settings...` in PyCharm IDE and select the downloaded `settings.jar` file. Click `OK` in the dialog that appears.
 
 2. Restart `PyCharmIDE`: Go to `File | Invalidate Chaches / Restart...` menu, and click in `Just Restart` button. The PyCharm IDE will be restart.
 
-3. Enjoy with Flask snippets!
+3. Enjoy with Flask templates!
 
 ## Contributing
 
-If you'd like to contribute, please create a fork and open issue or pull requests! I am very open to newcomers, and will need all the help we can get to make the best flask snippets to PyCharmIDE.
+If you'd like to contribute, please create a fork and open issue or pull requests! I am very open to newcomers, and will need all the help we can get to make the best flask snippets to PyCharm IDE.
 
 > TODO list:
 - [x] Flask python api snippets
