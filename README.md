@@ -1,10 +1,10 @@
-# Flask Pycharm Templates
+# Flask PyCharm Templates
 
-Collection of Jetbrains Pycharm IDE templates to help you develop Flask web applications.
+Collection of Jetbrains PyCharm IDE templates to help you develop Flask web applications.
 
 ## Features
 
-All `Pycharm Flask` code snippets start with the `f` letter.
+All `PyCharm Flask` code snippets start with the `f` letter.
 
 ### Python snippets
 
