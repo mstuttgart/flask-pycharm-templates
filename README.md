@@ -65,14 +65,6 @@ All `PyCharm Flask` code snippets start with the `f` letter.
 
 If you'd like to contribute, please create a fork and open issue or pull requests! I am very open to newcomers, and will need all the help we can get to make the best flask snippets to PyCharm IDE.
 
-> TODO list:
-- [x] Flask python api snippets
-- [x] Jinja2 snippets
-- [x] flash snippets
-- [ ] wtforms snippets
-- [ ] Form snippets
-
-
 To create new snippets, download and install the `settings.jar` file. Go to `File | Settings | Editor | Live Templates`, select `Flask` and add your new snippets.
 
 ## Credits
